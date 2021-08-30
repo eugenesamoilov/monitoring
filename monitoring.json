@@ -10,7 +10,7 @@
     {
       "type": "PORT",
       "label": "DNS server check port",
-      "params": { "hostname": "gorod14.su", "port": 53 }
+      "params": { "hostname": "8.8.8.8", "port": 53 }
     }
   ]
 }
