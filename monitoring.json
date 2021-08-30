@@ -4,8 +4,8 @@
   "tiles": [
     {
       "type": "PING",
-      "label": "mikrotik",
-      "params": { "hostname": "a6470ab9123b.sn.mynetname.net" }
+      "label": "ykt",
+      "params": { "hostname": "ykt.ru" }
     },
     {
       "type": "PORT",
