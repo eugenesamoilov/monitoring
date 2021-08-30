@@ -4,8 +4,8 @@
   "tiles": [
     {
       "type": "PING",
-      "label": "Localhost",
-      "params": { "hostname": "127.0.0.1" }
+      "label": "mikrotik",
+      "params": { "hostname": "a6470ab9123b.sn.mynetname.net" }
     },
     {
       "type": "PORT",
