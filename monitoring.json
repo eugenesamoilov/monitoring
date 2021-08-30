@@ -9,8 +9,8 @@
     },
     {
       "type": "PORT",
-      "label": "Dev server",
-      "params": { "hostname": "127.0.0.1", "port": 8080 }
+      "label": "DNS server check port",
+      "params": { "hostname": "gorod14.su", "port": 53 }
     }
   ]
 }
