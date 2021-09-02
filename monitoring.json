@@ -8,6 +8,11 @@
       "params": { "hostname": "ykt.ru" }
     },
     {
+      "type": "PING",
+      "label": "yandex",
+      "params": { "hostname": "yandex.ru" }
+    },
+    {
       "type": "PORT",
       "label": "DNS server check port",
       "params": { "hostname": "8.8.8.8", "port": 53 }
