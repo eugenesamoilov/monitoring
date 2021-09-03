@@ -17,6 +17,10 @@
       "label": "DNS server check port",
       "params": { "hostname": "8.8.8.8", "port": 53 }
     },
+    {
+      "type": "HTTP-STATUS",
+      "params": {"url": "https://ykt.ru","statusCodeMax": 299}
+    },
     { "type": "EMPTY" },
     { "type": "EMPTY" },
     { "type": "EMPTY" }
