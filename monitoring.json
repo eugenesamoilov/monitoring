@@ -29,13 +29,13 @@
   "tiles": [
     {
       "type": "PING",
-      "label": "ykt",
-      "params": { "hostname": "ykt.ru" }
+      "label": "doska ykt",
+      "params": { "hostname": "doska.ykt.ru" }
     },
     {
       "type": "PING",
-      "label": "yandex",
-      "params": { "hostname": "yandex.ru" }
+      "label": "news ykt",
+      "params": { "hostname": "news.ykt.ru" }
     },
     {
       "type": "PORT",
