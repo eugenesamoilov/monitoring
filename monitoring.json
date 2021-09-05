@@ -21,21 +21,15 @@
       "type": "HTTP-STATUS",
       "params": {"url": "https://ykt.ru","statusCodeMax": 299}
     },
-    { "type": "EMPTY" },
-    { "type": "EMPTY" },
-    { "type": "EMPTY" }
-  ],
-    "columns": 4,
-  "tiles": [
     {
       "type": "PING",
-      "label": "doska ykt",
-      "params": { "hostname": "doska.ykt.ru" }
+      "label": "ykt",
+      "params": { "hostname": "ykt.ru" }
     },
     {
       "type": "PING",
-      "label": "news ykt",
-      "params": { "hostname": "news.ykt.ru" }
+      "label": "yandex",
+      "params": { "hostname": "yandex.ru" }
     },
     {
       "type": "PORT",
@@ -45,9 +39,6 @@
     {
       "type": "HTTP-STATUS",
       "params": {"url": "https://ykt.ru","statusCodeMax": 299}
-    },
-    { "type": "EMPTY" },
-    { "type": "EMPTY" },
-    { "type": "EMPTY" }
+    }
   ]
 }
