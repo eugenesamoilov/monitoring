@@ -13,20 +13,15 @@
             "hostname": "example.com"
           }
         },
-        {
-          "type": "AZUREDEVOPS-BUILD",
-          "params": {
-            "project": "project",
-            "definition": 1,
-            "branch": "master"
-          }
-        },
-        {
-          "type": "PINGDOM-CHECK",
-          "params": {
-            "id": 42
-          }
-        }
+            {
+      "type": "PING",
+      "label": "ykt",
+      "params": { "hostname": "ykt.ru" }
+    },
+    {
+      "type": "HTTP-STATUS",
+      "params": {"url": "https://ykt.ru","statusCodeMax": 299}
+    }
       ]
     },
     {
