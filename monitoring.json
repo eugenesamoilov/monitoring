@@ -1,66 +1,65 @@
 {
-  "version": "2.0",
-  "columns": 3,
-  "tiles": [
-    {
-      "type": "GROUP",
-      "label": "Group name",
-      "tiles": [
+    "version": "2.0",
+    "columns": 3,
+    "tiles": [
+      {
+        "type": "GROUP",
+        "label": "Check group ",
+        "tiles": [
         {
-          "type": "PING",
-          "label": "Test",
-          "params": {
-            "hostname": "example.com"
-          }
+            "type": "PORT",
+            "label": "DNS server check port",
+            "params": { "hostname": "8.8.8.8", "port": 53 }
         },
-            {
-      "type": "PING",
-      "label": "ykt",
-      "params": { "hostname": "ykt.ru" }
-    },
-    {
-      "type": "HTTP-STATUS",
-      "params": {"url": "https://ykt.ru","statusCodeMax": 299}
-    }
-      ]
-    },
-    {
-      "type": "PING",
-      "label": "ykt",
-      "params": { "hostname": "ykt.ru" }
-    },
-    {
-      "type": "PING",
-      "label": "yandex",
-      "params": { "hostname": "yandex.ru" }
-    },
-    {
-      "type": "PORT",
-      "label": "DNS server check port",
-      "params": { "hostname": "8.8.8.8", "port": 53 }
-    },
-    {
-      "type": "HTTP-STATUS",
-      "params": {"url": "https://ykt.ru","statusCodeMax": 299}
-    },
-    {
-      "type": "PING",
-      "label": "ykt",
-      "params": { "hostname": "ykt.ru" }
-    },
-    {
-      "type": "PING",
-      "label": "yandex",
-      "params": { "hostname": "yandex.ru" }
-    },
-    {
-      "type": "PORT",
-      "label": "DNS server check port",
-      "params": { "hostname": "8.8.8.8", "port": 53 }
-    },
-    {
-      "type": "HTTP-STATUS",
-      "params": {"url": "https://ykt.ru","statusCodeMax": 299}
-    }
-  ]
-}
+        {
+            "type": "PING",
+            "label": "ykt",
+            "params": { "hostname": "ykt.ru" }
+        },
+        {
+            "type": "HTTP-STATUS",
+            "params": {"url": "https://ykt.ru","statusCodeMax": 299}
+        }
+        ]
+      },
+      {
+        "type": "PING",
+        "label": "ykt",
+        "params": { "hostname": "ykt.ru" }
+      },
+      {
+        "type": "PING",
+        "label": "yandex",
+        "params": { "hostname": "yandex.ru" }
+      },
+      {
+        "type": "PORT",
+        "label": "DNS server check port",
+        "params": { "hostname": "8.8.8.8", "port": 53 }
+      },
+      {
+        "type": "HTTP-STATUS",
+        "params": {"url": "https://ykt.ru","statusCodeMax": 299}
+      },
+      {
+        "type": "PING",
+        "label": "ykt",
+        "params": { "hostname": "ykt.ru" }
+      },
+      {
+        "type": "PING",
+        "label": "yandex",
+        "params": { "hostname": "yandex.ru" }
+      },
+      {
+        "type": "PORT",
+        "label": "DNS server check port",
+        "params": { "hostname": "8.8.8.8", "port": 53 }
+      },
+      {
+        "type": "HTTP-STATUS",
+        "params": {"url": "https://ykt.ru","statusCodeMax": 299}
+      }
+    ]
+  }
+  
